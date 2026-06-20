@@ -34,7 +34,7 @@ public class Lavaquitafeliz {
         contenedor = Leer.nextInt();
         
         switch (contenedor) {
-                 case 1 : ;
+                 case 1 : gestionvacas();
                                break;
                  case 2 :; 
                                break; 
@@ -50,6 +50,47 @@ public class Lavaquitafeliz {
                  System.exit(0);
              }
          } while ( contenedor < 5 );
+    }
+    
+    public static void gestionvacas (){
+        int contenedor = 0;
+        
+        do{
+        System.out.println("----------------------------------------");
+        System.out.println("|           GESTION DE VACAS           |");
+        System.out.println("----------------------------------------");
+        System.out.println("Ingrese una opcion (1-5) luego presione ");
+        System.out.println("La tecla entrer");
+        System.out.println(" ");
+        System.out.println("1. Registrar vaca");
+        System.out.println("2. Modificar vaca");
+        System.out.println("3. Eliminar vaca");
+        System.out.println("4. Consiltar vaca");
+        System.out.println("5. Salir");
+        System.out.println("----------------------------------------");
+        System.out.println(" ");
+        System.out.print("opcion: ");
+        contenedor = Leer.nextInt(); 
+        
+        switch (contenedor) {
+                 case 1 : ;
+                               break;
+                 case 2 :; 
+                               break; 
+                 case 3 : ;  
+                               break;
+                 case 4 : ;  
+                               break;
+                 case 5 : ;   
+                               break;
+                 
+             }  
+             if (contenedor < 0){
+                 System.exit(0);
+             }
+        } while ( contenedor < 5 );
+        
+        
     }
     
 }
