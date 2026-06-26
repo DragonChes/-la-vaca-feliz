@@ -10,6 +10,7 @@ import java.util.Scanner;
  */
 public class Lavaquitafeliz {
     static Scanner Leer = new Scanner (System.in);
+    
 
     /**
      * @param args the command line arguments
@@ -70,8 +71,10 @@ public class Lavaquitafeliz {
         System.out.println("----------------------------------------");
         System.out.println(" ");
         System.out.print("opcion: ");
-        contenedor = Leer.nextInt(); 
-        
+        contenedor = Leer.nextInt();
+        Leer.nextLine();
+
+            
         switch (contenedor) {
                  case 1 : ;
                                break;
@@ -85,9 +88,7 @@ public class Lavaquitafeliz {
                                break;
                  
              }  
-             if (contenedor < 0){
-                 System.exit(0);
-             }
+             
         } while ( contenedor < 5 );
         
         
